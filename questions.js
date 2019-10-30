@@ -10,18 +10,18 @@ var questions = [
       answer: "parentheses"
     },
     {
-      title: "",
-      choices: [],
-      answer: ""
+      title: "The external javascript file must contain the <script> tag.",
+      choices: ["true", "false", "truthy", "falsy"],
+      answer: "false"
     },
     {
-      title: "",
-      choices: [],
-      answer: ""
+      title: "How do yo write an if statement in Javascript?",
+      choices: ["if i = 5", "if (i == 5)", "if (i = 5) then", "if == 5 then"],
+      answer: "if (i == 5)"
     },
     {
-      title: "",
-      choices: [],
-      answer: ""
+      title: "How does a for loop start?",
+      choices: ["for (i = 0; i <= 5; i++)", "for (i <= 5; i++)", "for (i = 0; i <= 5)", "for i = 1-5"],
+      answer: "for (i = 0; i <= 5; i++)"
     },
   ];
