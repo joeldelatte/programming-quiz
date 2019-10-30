@@ -1,3 +1,19 @@
+
 .header-text {
     text-align: center;
 }
+
+#row-height {
+    height: 100px;
+}
+
+.button-spacing {
+    margin-top: 15px;
+}
+
+.button-color {
+    /* background-color: lightseagreen; */
+}
+
+
+
