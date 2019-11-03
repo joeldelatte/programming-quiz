@@ -11,14 +11,37 @@
     margin-top: 15px;
 }
 
-.button-color {
-    /* background-color: lightseagreen; */
-}
-
 #clear {
-    margin-left: 30%;
+    margin-left: 35%;
 }
 
 #user-submit {
-    margin-left: 20%;
+    margin-left: 28%;
+}
+
+#submit-name {
+    margin-left: 25%;
+}
+
+#start-button {
+    background-color: #007bff;
+    color: white;
+}
+
+#high-score {
+    margin-left: 28%;
+}
+
+#go-back {
+    margin-left: 25%;
+}
+
+#question {
+    text-align: center;
+}
+
+#correct {
+    padding: 20px;
+    color: grey;
+    text-align: center;
 }

@@ -14,7 +14,7 @@
     <div clas="container">
         <div class="row" id="row-height">
             <div class="col-md-2 header-text">
-                <a src="high_score.html">View Highscore</a>
+                <a href="high_score.html">View Highscore</a>
             </div>
             <div class="col-md-8"></div>
             <div class="col-md-2">
@@ -27,17 +27,17 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto placeat aspernatur, modi, quasi distinctio asperiores obcaecati 
+                            <h6 id="question">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto placeat aspernatur, modi, quasi distinctio asperiores obcaecati 
                                 perferendis consectetur maiores rerum vero tempora aliquam dicta, sapiente quos officiis hic architecto veritatis.</h6>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-3"></div>
                         <div class="col-md-6 btn-group-vertical">
-                            <button type="button" class="btn btn-primary button-spacing button-color">Answer A</button>
-                            <button type="button" class="btn btn-primary">Answer B</button>
-                            <button type="button" class="btn btn-primary">Answer C</button>
-                            <button type="button" class="btn btn-primary">Answer D</button>
+                            <button type="button" id="answerA" class="btn btn-primary button-spacing" >Answer A</button>
+                            <button type="button" id="answerB" class="btn btn-primary">Answer B</button>
+                            <button type="button" id="answerC" class="btn btn-primary">Answer C</button>
+                            <button type="button" id="answerD" class="btn btn-primary">Answer D</button>
                         </div>
                         <div class="col-md-3"></div>
                     </div>
@@ -46,12 +46,19 @@
             </div>
             <div class="col-md-2"></div>
         </div>
-        
+        <div class="row justify-content-center" >
+            <div class="col-md-8">
+                <section id="correct"></section>
+            </div>
+        <div class="row justify-content-center">
+            <button type="button" class="btn btn-primary" id="next">Next</button>
+        </div>
+        </div>
     </div>
 
     <!--avaScript -->
-    <script type="text/script.js"></script>
-    <script type="text/questions.js"></script>
+    <script src="script.js"></script>
+    <script src="questions.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
